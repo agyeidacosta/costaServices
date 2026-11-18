@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding:0;
+}
+body{
+background-color:#1e2a3a; ;
+}
+
+.form-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 120px;
+}
+
+.heading{
+margin: 15px 0;
+font-size: 1.11rem;
+color: #c4c4c4c4;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.adminForm{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 30%;
+}
+
+label{
+font-size: 1.10rem;
+margin-top: 15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #c4c4c4c4;
+font-weight: 500;
+}
+
+input{
+padding: 10px 15px;
+border: 1px solid #c4c4c4c4;
+border-radius: 8px;
+color: #c4c4c4c4; 
+background: none;
+margin-top: 5px;
+}
+
+input::placeholder{
+  color: #c4c4c4c4;  
+  font-size: 0.80rem;
+}
+
+ button{
+      margin: 25px 0;
+      padding: 2px 0;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.44rem;
+      border-radius:6px;
+      background-color: #4a90e2;
+      border:none;
+      transition: background 0.3s ease-in;
+      }
+
+    button:hover{
+      background-color: #2d1b4e;
+      border: 2px solid #c4c4c4c4;
+      color: #c4c4c4;
+      cursor: pointer;
+
+      }

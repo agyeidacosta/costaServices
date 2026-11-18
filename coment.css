@@ -1,0 +1,146 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+}
+
+body{
+background-color: #030205;
+ margin:0;
+padding:0;
+}
+
+
+.Creport{
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "Poppins", sans-serif;
+font-size: 1.1rem;
+color: #c4c4c4;
+}
+
+.backtopage{
+          display:flex;
+          justify-content: space-between;
+          align-items: center;
+          margin: 10px 25px;
+          background-color:none;
+          padding:5px 12px;
+          font-family: "Poppins", sans-serif;
+
+          }
+
+          button{
+          padding: 5px 15px;
+          border: none;
+          background-color: green;
+          box-shadow: 0 0 24px rgba(255, 255, 255, 0.06);
+          font-size: 1rem;
+          font-family: "Poppins", sans-serif;
+          }
+
+          /* print */
+          .rprint{
+          padding: 5px 15px;
+          box-shadow: 0 0 24px rgba(255, 255, 255, 0.06);
+          background-color: green;
+          font-family: "Poppins", sans-serif;
+          font-size: 1rem;
+          }
+
+
+          button a{
+          text-decoration: none;
+          color: black;
+          }
+
+          button a:active{
+          color:green;
+          }
+
+
+
+/* table styles */
+
+.formContainer{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 8px 10px;
+margin: 0 12px;
+overflow-x: auto;
+ background-color: rgb(27, 25, 23);
+box-shadow: 0 0 24px rgba(255, 255, 255, 0.06);
+}
+
+
+table{
+
+width:100%;
+border: none;
+
+}
+
+
+
+          td{
+          border:none;
+          vertical-align: middle;
+          padding: 10px 16px;
+          text-align: left;
+          font-family: "Poppins", sans-serif;
+          font-size: 1rem;
+          color:#c4c4c4
+
+
+          }
+
+          th{
+          padding: 10px 16px;
+          background-color: rgb(27, 25, 23);
+          border: none;
+          margin:0;
+           font-size: 1.2rem;
+           color:#c4c4c4c4;
+             font-family: "Poppins", sans-serif;
+           
+
+          }
+
+          tr:nth-child(even) {
+          background-color: rgb(41, 40, 38);
+          color:#c4c4c4;
+          padding-left: 10px;
+          }
+
+
+
+           a{
+            font-size: 0.8rem;
+            text-decoration: none;
+            text-align: center;
+            color: #c4c4c4;
+            cursor: pointer;
+          }
+
+          a:active{
+            color:aqua
+          }
+
+          
+
+             tr:not(:first-child):hover th {
+          background-color: rgb(6, 52, 58);
+          color:rgb(250, 249, 248);
+          
+          }
+           tr:hover td:not(:last-child) {
+          background-color:  rgb(6, 52, 58);
+          color:rgb(250, 249, 248);
+          }
+          
+           
+
